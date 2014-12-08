@@ -25,11 +25,10 @@ On-my-own
 	}
 
 	#container {
-	   width : 90%;
+	   width : 960px;
 	  margin : 2px auto;
 	  border : 9px solid black;
-       min-width : 800px;
-       max-width : 1250px;
+       
 	}
 
 	#sidebar {
