@@ -1,0 +1,83 @@
+On-my-own
+=========
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First File</title>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<meta name="author" content="Marc Dearden"/>
+ <meta name="copyright" content="Copyright (c) by Marc Dearden  All Rights Reserved."/>
+<meta property="og:locale" content="en_us"/>
+<style>
+	   /* reset rule */
+	   *{
+		margin : 0px;
+	       padding : 0px;
+		border : 0px;
+	    }
+
+	   /* layout rules */
+	body {
+	   font-weight : bold;
+	   font-family : verdana;
+	     font-size : 200%;
+		 color : #FFF;
+	}
+
+	#container {
+	   width : 90%;
+	  margin : 2px auto;
+	  border : 9px solid black;
+       min-width : 800px;
+       max-width : 1250px;
+	}
+
+	#sidebar {
+	   width : 200px;
+	  height : 450px;
+	   float : left;
+      background : #900;
+	}
+
+	#main {
+	   margin-left : 200px;
+	}
+
+	#header {
+	   height : 100px;
+       background : #900;
+	}
+
+	#content {
+	   height : 300px;
+       background : #090;
+	}
+
+	#footer {
+	   height : 50px;
+       background : #909;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="container">
+	   <div id="topgroup">
+	   <div id="sidebar">
+		sidebar
+	   </div>
+		<div id="main">
+		   <div id="header">
+			header
+		   </div>
+		   <div id="content">
+			main content
+		   </div>
+		</div>	<!-- end of main -->
+	   </div>	<!-- end of top group -->
+	   <div id="footer">
+		footer
+	   </div>
+	</div>   <!-- end of container -->
+</body>
+</html>
